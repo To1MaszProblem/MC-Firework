@@ -1,0 +1,11 @@
+#Plugin napisany przez To1MaszProblem
+usage-message: "&7Poprawne użycie: &a/fajerwerka [gracz] [ilość]"
+permission:
+  permission: "fajerwerka.admin"
+  message: "&cNie posiadasz uprawnien do tej komendy!"
+firework:
+  name: "&#720567&lS&#7b086d&lm&#850c74&lo&#8e0f7a&lc&#971280&lz&#a01586&la &#aa198d&lf&#b31c93&la&#bc1f99&lj&#c5229f&le&#cf26a6&lr&#d829ac&lw&#e12cb2&le&#ea2fb8&lr&#f433bf&lk&#fd36c5&la"
+  glow: false
+  lore:
+    - "&8✖ &7Nieskończona fajerwerka"
+    - "&8✖ &7Możesz ją wytworzyć u &5szamana &7na spawn"

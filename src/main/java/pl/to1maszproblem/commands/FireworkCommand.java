@@ -12,6 +12,7 @@ import pl.to1maszproblem.utils.ChatType;
 import pl.to1maszproblem.utils.TextUtil;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 public class FireworkCommand implements TabExecutor {
@@ -58,18 +59,13 @@ public class FireworkCommand implements TabExecutor {
     @Override
     public List<String> onTabComplete(CommandSender sender, Command command, String alias, String[] args) {
         if (args.length == 1) {
-            List<String> argscmd = new ArrayList<>();
-            argscmd.add("give");
-            return argscmd;
+            List<String> argument = List.of("give");
+            return argument;
         }
         if (args.length == 2) return sender.getServer().getOnlinePlayers().stream().map(Player::getName).toList();
         if (args.length == 3) {
-            List<String> argscmd = new ArrayList<>();
-            argscmd.add("1");
-            argscmd.add("10");
-            argscmd.add("50");
-            argscmd.add("100");
-            return  argscmd;
+            List<String> argument = Arrays.asList("1", "10", "50","100");
+            return argument;
         }
         return null;
     }

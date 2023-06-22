@@ -11,3 +11,4 @@ Plugin został odwzorowany z serwera minestar.pl
 
 
 
+[**Pobierz plik .jar**](MC-Firework-1.0.jar)

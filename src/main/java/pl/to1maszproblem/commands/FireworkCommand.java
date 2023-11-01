@@ -11,7 +11,6 @@ import pl.to1maszproblem.data.ItemData;
 import pl.to1maszproblem.utils.ChatType;
 import pl.to1maszproblem.utils.TextUtil;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 

@@ -1,5 +1,5 @@
 #Plugin napisany przez To1MaszProblem
-usage-message: "&7Poprawne użycie: &a/fajerwerka [gracz] [ilość]"
+usage-message: "&7Poprawne użycie: &a/fajerwerka give [gracz] [ilość]"
 permission:
   permission: "fajerwerka.admin"
   message: "&cNie posiadasz uprawnien do tej komendy!"
